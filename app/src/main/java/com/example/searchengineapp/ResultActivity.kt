@@ -42,7 +42,7 @@ class ResultActivity : AppCompatActivity() {
 
     private fun fetchResults(query: String) {
         val retrofit = Retrofit.Builder()
-            .baseUrl("https://YOUR_SUPABASE_PROJECT_URL/") // replace with your Supabase REST endpoint
+            .baseUrl("https://jhyqyskemsvoizmmupka.supabase.co") // replace with your Supabase REST endpoint
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
